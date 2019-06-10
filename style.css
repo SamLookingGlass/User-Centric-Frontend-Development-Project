@@ -65,6 +65,18 @@
 
 /*Gallery*/
 
-#gallerymain {
-    background-color:red;
+.card-text {
+    color:white;
+    font-weight:bolder;
+    font-size:24px;
+}
+
+#background1 {
+ position: relative 
+ background-position:cover;
+}
+
+.gallery-left {
+    background-position:cover;
+    background-image:url("images/background.gif");
 }
