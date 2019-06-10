@@ -1,8 +1,8 @@
 
 /*Home Styling*/
-#nav-font {
-    font-weight:bolder;
+.main-font {
     font-size: 0.8em;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #logo-next span {
@@ -27,6 +27,20 @@
     max-width: 150px;
 }
 
+.main2 {
+    /*background-image: url("images/image2.jpg");*/
+    min-height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    background-color:#0F0F0F;
+    background-size: cover;
+    height:300px;
+}
 
 /*Gallery Styling*/
 
