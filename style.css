@@ -8,8 +8,11 @@
 
 /*Updated Index*/
 
+#navlogo {
+   filter: invert(1);
+}
 .navnew li a {
-    color: black;
+    color: white;
 }
 
 .navnew li {
@@ -28,7 +31,12 @@
 
 .navleft ul {
     position: relative;
-    left: 28pt;
+    left: 10pt;
+}
+
+.fontnew {
+    color:white;
+    font-size: 7pt;
 }
 
 #videobg {
@@ -54,7 +62,8 @@
     }
 }
 
-@media (max-width: 767px) {
+/*edit size*/
+@media (max-width: 200px) {
     #videobg {
         display: none;
     }
