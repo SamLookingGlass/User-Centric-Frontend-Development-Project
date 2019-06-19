@@ -1,42 +1,110 @@
+/*Sanity Checks*/
 .red {
     background-color: red;
 }
 
-.green {
-    background-color: green;
+.bod {
+    border:black solid 1pt;
 }
 
-/*Updated Index*/
+/*Home Styling*/
 
+/*Parralax Scrolling */
+.parralax {
+    background-color:rgba(207, 0, 15, 1);
+    height:462pt;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notparralax {
+    background-image:url("images/image2.jpg");
+    height:400pt;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Optional Color background-color:rgba(207, 0, 15, 0.6)*/
+#navbg {
+    background:rgb(94,26,26); 
+    background:linear-gradient(58deg, rgba(94,26,26,0.78) 42%, rgba(52,10,10,0.9) 48%, rgba(158,2,13,0.78) 48%); 
+    margin: 0 3vw; 
+    border-radius:15vw 0 15vw 0;
+}
+
+#navbg1 {
+    background:rgb(94,26,26); 
+    background:linear-gradient(58deg, rgba(94,26,26,0.78) 42%, rgba(52,10,10,0.9) 48%, rgba(158,2,13,0.78) 48%); 
+    margin: 0 3vw; 
+    border-radius:15vw 15vw 0 0;
+}
+
+#active {
+    text-decoration: underline overline;
+}
+
+.badgedesign {
+    margin:10pt;
+    padding:10pt;
+    border: solid white 2pt;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.musicbox {
+    position:relative;
+    padding-top:20pt;
+}
 #navlogo {
    filter: invert(1);
+   padding-top: 1.5vw;
 }
 .navnew li a {
     color: white;
 }
 
+.navnew li a:hover {
+    text-decoration: underline overline;
+}
+
 .navnew li {
     text-decoration: none;
     list-style: none;
-    padding-top: 12pt;
+    padding-top: 1.5vw;
     margin: 5pt;
-    font-size: 7pt;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
 .navright ul {
     position: relative;
-    right: 20pt;
+    padding-left:0;
 }
 
 .navleft ul {
     position: relative;
-    left: 10pt;
+    padding-right:0;
 }
 
 .fontnew {
     color:white;
-    font-size: 7pt;
+    font-size: 1vw;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing:0.2vw;
+}
+.fontfooter {
+    color:white;
+    font-size: 1vw;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing:0.2vw;
+}
+#sec1 h1, p{
+    padding:5pt;
+    margin:10pt;
 }
 
 #videobg {
@@ -71,70 +139,6 @@
         background: url("");
         background-size: cover;
     }
-}
-
-
-
-/*Home Styling*/
-
-.main-font {
-    font-size: 0.8em;
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.topnav {
-    padding: 0pt;
-    padding-left: 1pt;
-    border-bottom: solid 1pt black;
-}
-
-.topnav ul {
-    align-items: stretch;
-    position: absolute;
-    left: 150pt;
-}
-
-.topnav ul li:hover {
-    background-color: grey;
-    border-radius: 20px;
-    text-decoration: underline;
-}
-
-#logo-next span {
-    background-color: black;
-    border-radius: 4px;
-    padding: 23px 10px;
-}
-
-#logo-prev span {
-    background-color: black;
-    border-radius: 4px;
-    padding: 23px 10px;
-}
-
-#home-background {
-    background-color: #FFFF00;
-    background-size: cover;
-    height: 300px;
-}
-
-#main-album {
-    max-width: 150px;
-}
-
-.main2 {
-    background-image: url("images/image2.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.footer {
-    background-color: #0F0F0F;
-    background-size: cover;
-    height: 300px;
 }
 
 /*Gallery Styling*/
