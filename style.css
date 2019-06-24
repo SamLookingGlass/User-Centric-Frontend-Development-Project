@@ -11,7 +11,7 @@
 
 /*Parralax Scrolling */
 .parralax {
-    background-color:rgba(207, 0, 15, 1);
+    background-color:#f00833;
     height:462pt;
     background-attachment: fixed;
     background-position: center;
@@ -20,12 +20,20 @@
 }
 
 .notparralax {
-    background-image:url("images/image2.jpg");
+    background-image:url("images/image11.jpg");
     height:400pt;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.notparralax div {
+    padding-top:1vw;
+}
+
+.formbackground {
+    background-color:rgba(0, 0, 0, 0.8);
 }
 
 
@@ -55,10 +63,6 @@
     background-color:rgba(0, 0, 0, 0.6);
 }
 
-.musicbox {
-    position:relative;
-    padding-top:20pt;
-}
 #navlogo {
    filter: invert(1);
    padding-top: 1.5vw;
@@ -141,6 +145,64 @@
     }
 }
 
+/*To reference DNCE*/
+#formcta {
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    vertical-align: middle;
+    padding: .85em 1em;
+    color: #fefefe;
+    font-weight: 700;
+    border-radius: 1px;
+    margin: 0 10px 0 auto;
+    border: none;
+    transition: background .2s ease-in-out;
+    font-size: 1rem;
+    outline: 0;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+/*To reference DNCE*/
+.blockheader {
+    display: inline-block;
+    font-family: "Amatic SC",cursive;
+    font-size: calc(1.11111vw + 20.44px);
+    font-weight: 700;
+    border: 3px solid #f00833;
+    color: white;
+    padding: 0 1.125rem;
+    margin: 0;
+    border-radius: 1px;
+    clear: both;
+    letter-spacing: .05em;
+    text-align: left;
+    width: auto;
+    text-transform: uppercase;
+    position: relative;
+    left: -1%;
+    transform: skew(3deg);
+}
+.blockheader::after {
+    content: '';
+    width: 0;
+    height: 0;
+    top: auto;
+    border-style: solid;
+    border-width: 12px 0 0 8px;
+    border-color: #f00833 transparent transparent;
+    position: absolute;
+    bottom: -13px;
+    left: 6%;
+    z-index: 0;
+    transform: rotate(-7deg);
+} 
+
+#red-font {
+    color: #f00833;
+}
+
 /*Gallery Styling*/
 
 .card-text {
@@ -149,11 +211,6 @@
     font-size: 24px;
 }
 
-
-.gallery-left {
-    background-position: cover;
-    background-image: url("images/background.gif");
-}
 
 /*History Styling*/
 
