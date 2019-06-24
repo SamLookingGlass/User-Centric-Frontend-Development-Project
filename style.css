@@ -4,7 +4,9 @@
 }
 
 .bod {
-    border:black solid 1pt;
+    border:solid 0.5vw white;
+    margin-top:7.5vw;
+    padding:0.1vw;
 }
 
 
