@@ -105,7 +105,16 @@
     font-size: 1vw;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing:0.2vw;
+    
 }
+
+.fonttypo {
+    font-family: 'Playfair Display', serif;
+    color:white;
+    font-size: 1vw;
+    font-weight:bolder;
+}
+
 .fontfooter {
     color:white;
     font-size: 1vw;
