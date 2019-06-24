@@ -1,17 +1,69 @@
 /*Sanity Checks*/
-.red {
-    background-color: red;
+.blue {
+    background-color:blue;
+    
 }
-
 .bod {
-    border:solid 0.5vw white;
-    margin-top:7.5vw;
-    padding:0.1vw;
+    border:solid 1px black;
 }
-
 
 /*Home Styling*/
+.cardbod {
+    margin-top:4.5vw;
+    padding:0.5vw;
+    border-radius: 5px;
+    /*align-items: center;*/
+    display: flex;
+    flex-direction: column;
+}
 
+/*Arrow Test https://codepen.io/raf187/pen/BvgGRQ*/
+.red {
+    margin-top:17vw;
+}
+body{
+  margin-top: 0;
+  padding: 0;
+  background-color: #000;
+}
+.arrow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(158,2,13,0.7);
+    border-right: 5px solid rgb(158,2,13,0.7);
+    transform: rotate(45deg);
+    margin: -12px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+	
+/**/
 #borderhome {
     border: solid 2vw rgb(94,26,26);
     /*border: solid 2vw rgb(158,2,13);*/
@@ -38,10 +90,6 @@
 
 .notparralax div {
     padding-top:1vw;
-}
-
-.formbackground {
-    background-color:rgba(0, 0, 0, 0.8);
 }
 
 
@@ -124,6 +172,7 @@
     letter-spacing:0.2vw;
     padding:0.18vw;
 }
+
 #sec1 h1, p{
     padding:5pt;
     margin:10pt;
@@ -163,7 +212,13 @@
     }
 }
 
+/*Newsletter Form*/
 /*To reference DNCE*/
+.formbackground {
+    margin-top:5vw;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding:2vw;
+}
 #formcta {
     text-align: center;
     line-height: 1;
