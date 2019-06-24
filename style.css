@@ -7,7 +7,13 @@
     border:black solid 1pt;
 }
 
+
 /*Home Styling*/
+
+#borderhome {
+    border: solid 2vw rgb(94,26,26);
+    /*border: solid 2vw rgb(158,2,13);*/
+}
 
 /*Parralax Scrolling */
 .parralax {
@@ -48,8 +54,8 @@
 #navbg1 {
     background:rgb(94,26,26); 
     background:linear-gradient(58deg, rgba(94,26,26,0.78) 42%, rgba(52,10,10,0.9) 48%, rgba(158,2,13,0.78) 48%); 
-    margin: 0 3vw; 
-    border-radius:15vw 15vw 0 0;
+    margin: 0 2vw; 
+    /*border-radius:15vw 15vw 0 0;*/
 }
 
 #active {
@@ -105,6 +111,7 @@
     font-size: 1vw;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing:0.2vw;
+    padding:0.18vw;
 }
 #sec1 h1, p{
     padding:5pt;
