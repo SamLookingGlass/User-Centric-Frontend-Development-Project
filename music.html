@@ -9,101 +9,65 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap" rel="stylesheet">
-    <title>MusicBox</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>The Quests Official - Music</title>
 </head>
 
-<body>
-<nav class="navbar navbar-expand-sm bg-light navbar-light shadow  main-font topnav">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="#">
-    <img src="images/logo.png" alt="logo" style="width:80px; margin: 0px 20px">
-  </a>
-  
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">History</a>
-    </li>
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Music</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Gallery</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Tours</a>
-    </li>
-  </ul>
-</nav>
+<body id="borderhome">
+    <!--<div class="container-fluid" style="height:2vw"></div>-->
+    <nav class="fontnew" id="navbg">
+        <div class="container-fluid">
+            <div class="row d-lg-flex">
+                <div class="col-5 navnew navleft d-flex justify-content-end">
+                    <ul class="d-flex">
+                        <li><a href="home.html">HOME</a></li>
+                        <li id="active"><a href="music.html">MUSIC</a></li>
+                        <li><a href="history.html">HISTORY</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 d-lg-flex justify-content-center">
+                    <a class="" href="home.html">
+                     <img id="navlogo" class="img-fluid" src="images/logo.png" alt="logo">
+                </a>
+                </div>
+                <div class="col-5 navnew navright d-lg-flex justify-content-start">
+                    <ul class="d-flex">
+                        <li><a href="tour.html">TOUR</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="imagebg">
+        </div>
+    </main>
+    <section>
+        <div style="height:420pt" class="container-fluid">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5 fonttypo-gallery">
+                    <h2 class="cardbod">
+                        “In whatever field I’ve entered, I’ve challenged boundaries, gone beyond limits, pushed the envelope.
+                        <br>
+                        <br> My prime motivation has always been to touch emotions – because if you can do that, you have your audience in your hands.”
+                        <br>
+                    </h2>
+                    <h3>
+                        - Vernon Cornelius, Lead Singer
+                    </h3>
+                </div>
+                <div class="col-5 cardbod-galllery fonttypo-gallery">
 
-<section id="timeline">
-  
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image:url("images/image5.jpg")></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">Shanty</p>
-    </div>
-
-    <div class="tl-content">
-      <h1>Lorem ipsum dolor sit</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-    </div>
-
-  </div>
-
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image:url("images/image9.jpg")></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">Test</p>
-    </div>
-
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Vestibulum laoreet lorem</h1>
-      <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim ipsum vel mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.</p>
-    </div>
-
-  </div>
-
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image:url("images/image7.jpg")></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2014</p>
-    </div>
-
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Phasellus mauris elit</h1>
-      <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque sit amet varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor dolor. Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur vel, pretium sed.</p>
-    </div>
-
-  </div>
-
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image:url("images/image8.jpg")"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2016</p>
-    </div>
-
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Mauris vitae nunc elem</h1>
-      <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus, bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor elit.</p>
-    </div>
-
-  </div>
-</section>
-
-
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
