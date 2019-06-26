@@ -295,3 +295,12 @@ body{
     background-size: cover;
     /*background-image: url("images/home1.jpg");*/
 }
+
+/*Music Styling*/
+.cardbod-music {
+    padding-top:2vw;
+}
+
+.cardbod-music div{
+    margin:0.2vw;
+}
