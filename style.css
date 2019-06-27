@@ -19,7 +19,6 @@
 .cardbod {
     margin-top:4.5vw;
     padding:0.5vw;
-    border-radius: 5px;
     /*align-items: center;*/
     display: flex;
     flex-direction: column;
@@ -106,6 +105,7 @@ body{
     background:linear-gradient(58deg, rgba(94,26,26,0.78) 42%, rgba(52,10,10,0.9) 48%, rgba(158,2,13,0.78) 48%); 
     margin: 0 3vw; 
     border-radius:15vw 0 15vw 0;
+    /*position:absolute; z-index:1;*/
 }
 
 #navbg1 {
@@ -115,6 +115,10 @@ body{
     /*border-radius:15vw 15vw 0 0;*/
 }
 
+.navbgz {
+        position:absolute; 
+        z-index:1;
+}
 #active {
     text-decoration: underline overline;
 }
@@ -380,18 +384,21 @@ body{
 /*Tour Styling*/
 .tour-background {
     background-image: url("images/background1.jpg");
-    height:400pt;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index:-1;
 }
 
-.blockheader1 {
+.cardbod-tour {
+    background-color: rgba(0,0,0,0.6);
+    padding:10px;
+}
+
+.blockheader2 {
     display: inline-block;
-    font-family: "Amatic SC",cursive;
-    font-size: calc(1.11111vw + 20.44px);
     font-weight: 700;
+    font-family: inherit;
     border: 3px solid #f00833;
     color: white;
     padding: 0 1.125rem;
@@ -401,13 +408,12 @@ body{
     letter-spacing: .05em;
     text-align: left;
     width: auto;
-    text-transform: uppercase;
     position: relative;
     left: -1%;
     transform: skew(3deg);
     background-color:rgba(0,0,0,0.6);
 }
-.blockheader1::after {
+.blockheader2::after {
     content: '';
     width: 0;
     height: 0;
@@ -417,7 +423,7 @@ body{
     border-color: #f00833 transparent transparent;
     position: absolute;
     bottom: 43px;
-    left: 6%;
+    left: -2.1%;
     z-index: 0;
-    transform: rotate(187deg);
+    transform: rotate(97deg);
 } 
