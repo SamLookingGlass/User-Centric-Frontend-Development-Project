@@ -7,7 +7,11 @@
     border:solid 1px black;
 }
 
-.shadow {
+.shadow-black {
+    text-shadow: 2px 2px black;
+}
+
+.shadow-grey {
     text-shadow: 2px 1px grey;
 }
 
@@ -155,7 +159,7 @@ body{
 
 .fontnew {
     color:white;
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing:0.2vw;
     
