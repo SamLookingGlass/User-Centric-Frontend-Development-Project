@@ -87,7 +87,7 @@ body{
 }
 
 .notparralax {
-    background-image:url("images/image11.jpg");
+    background-image:url("images/background/background3.jpg");
     height:400pt;
     background-attachment: fixed;
     background-position: center;
@@ -384,7 +384,7 @@ body{
 
 /*Tour Styling*/
 .tour-background {
-    background-image: url("images/image12.jpg");
+    background-image: url("images/background/background2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
