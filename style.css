@@ -76,7 +76,7 @@ body{
 /*Parralax Scrolling */
 .parralax {
     background-color:teal;
-    height:460pt;
+    height:480pt;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -440,6 +440,10 @@ body{
   vertical-align: baseline;
 }
 
+.table {
+    margin-bottom:0;
+}
+
 /*History Styling*/
 .history-background {
     background-image: url("images/gallery/image8.jpg");
@@ -450,5 +454,5 @@ body{
 }
 
 .cardbod-left-history {
-        margin-top:11.1vw;
+    margin-top:11.1vw;
 }
