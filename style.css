@@ -429,3 +429,13 @@ body{
     z-index: 0;
     transform: rotate(97deg);
 } 
+
+.albumclass td img {
+    width:6vw; 
+    margin-right:2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+table, th, td {
+  vertical-align: baseline;
+}
