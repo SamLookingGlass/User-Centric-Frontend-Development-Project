@@ -69,7 +69,6 @@
 
 @media only screen and (max-width: 600px) {
     #navbg {
-        background: rgb(94, 26, 26);
         background: linear-gradient(58deg, rgba(94, 26, 26, 0.78) 42%, rgba(52, 10, 10, 0.9) 48%, rgba(158, 2, 13, 0.78) 48%);
         position: absolute;
         z-index: 1;
@@ -78,12 +77,6 @@
         margin: auto;
         border-radius: 0;
     }
-
-    #navbg1 {
-        background: rgb(94, 26, 26);
-        background: linear-gradient(58deg, rgba(94, 26, 26, 0.78) 42%, rgba(52, 10, 10, 0.9) 48%, rgba(158, 2, 13, 0.78) 48%);
-    }
-
 
     #active {
         text-decoration: underline overline;
@@ -143,31 +136,12 @@
         left: -28pt;
     }
 
-    .fontfooter {
-        color: white;
-        font-size: 1pt;
-        font-family: 'Fjalla One', sans-serif;
-        letter-spacing: 0.2vw;
-        padding: 0.18vw;
-    }
-
-    .logos i {
-        padding-right: 0.2vw;
-        color: white;
-        font-size: 10px;
-    }
-
-    .logos i:hover {
-        color: black;
-    }
-
-
     body .fontfooter {
         color: white;
-        font-size: 2.5vw;
+        font-size: 7pt;
         font-family: 'Fjalla One', sans-serif;
         letter-spacing: 0.2vw;
-        padding: 0.18vw;
+        padding: 1.1vw;
     }
 
     body .logos i {
@@ -237,10 +211,10 @@
 
 .fontfooter {
     color: white;
-    font-size: 1vw;
+    font-size: 13px;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.2vw;
-    padding: 0.18vw;
+    padding: 1.1vw;
 }
 
 .logos i {
@@ -265,7 +239,7 @@
 /*Arrow Test https://codepen.io/raf187/pen/BvgGRQ*/
 
 .red {
-    margin-top: 25vw;
+    margin-top: 23vw;
 }
 
 body {
