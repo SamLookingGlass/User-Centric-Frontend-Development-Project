@@ -1,139 +1,43 @@
-/*Sanity Checks*/
-.blue {
-    background-color:blue;
-    
-}
-.bod {
-    border:solid 1px black;
-}
+/*General Styling*/
 
-.shadow-black {
-    text-shadow: 2px 2px black;
-}
+/*Navbar*/
 
-.shadow-grey {
-    text-shadow: 2px 1px grey;
-}
-
-/*Home Styling*/
-.cardbod {
-    margin-top:7vw;
-    padding:0.5vw;
-    display: flex;
-    flex-direction: column;
-}
-
-/*Arrow Test https://codepen.io/raf187/pen/BvgGRQ*/
-.red {
-    margin-top:17vw;
-}
-body{
-  margin-top: 0;
-  padding: 0;
-}
-.arrow{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.arrow span{
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid rgb(158,2,13,0.7);
-    border-right: 5px solid rgb(158,2,13,0.7);
-    transform: rotate(45deg);
-    margin: -12px;
-    animation: animate 2s infinite;
-}
-.arrow span:nth-child(2){
-    animation-delay: -0.2s;
-}
-.arrow span:nth-child(3){
-    animation-delay: -0.4s;
-}
-
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
-    }
-}
-	
-/**/
-#borderhome {
-    border-top: solid 2vw rgb(94,26,26);
-}
-
-/*Parralax Scrolling */
-.parralax {
-    background-color:teal;
-    height:480pt;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.notparralax {
-    background-image:url("images/background/background3.jpg");
-    height:400pt;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.notparralax div {
-    padding-top:1vw;
-}
+/*#nav-logo {*/
+/*    background-image: url("images/logo/logo.png");*/
+/*    filter: invert(1);*/
+/*    padding-top: 1.5vw;*/
+/*    background-size: 0% 100%;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
 
 #navbg {
-    background:rgb(94,26,26); 
-    background:linear-gradient(58deg, rgba(94,26,26,0.78) 42%, rgba(52,10,10,0.9) 48%, rgba(158,2,13,0.78) 48%); 
+    background: rgb(94, 26, 26);
+    background: linear-gradient(58deg, rgba(94, 26, 26, 0.78) 42%, rgba(52, 10, 10, 0.9) 48%, rgba(158, 2, 13, 0.78) 48%);
     /*margin: 0 3vw; */
-    border-radius:15vw 0 15vw 0;
-    position:absolute; 
-    z-index:1;
-    left:0;
-    right:0;
-    margin:auto 3vw;
+    border-radius: 15vw 0 15vw 0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: auto 3vw;
 }
 
 #navbg1 {
-    background:rgb(94,26,26); 
-    background:linear-gradient(58deg, rgba(94,26,26,0.78) 42%, rgba(52,10,10,0.9) 48%, rgba(158,2,13,0.78) 48%); 
-    /*margin: 0 2vw; */
-    /*border-radius:15vw 15vw 0 0;*/
+    background: rgb(94, 26, 26);
+    background: linear-gradient(58deg, rgba(94, 26, 26, 0.78) 42%, rgba(52, 10, 10, 0.9) 48%, rgba(158, 2, 13, 0.78) 48%);
 }
 
-.navbgz {
-        position:absolute; 
-        z-index:1;
-}
+
 #active {
     text-decoration: underline overline;
 }
 
-.badgedesign {
-    margin:10pt;
-    padding:10pt;
-    border: solid white 2pt;
-    background-color:rgba(0, 0, 0, 0.6);
-}
 
 #navlogo {
-   filter: invert(1);
-   padding-top: 1.5vw;
+    filter: invert(1);
+    padding-top: 1.5vw;
 }
+
 .navnew li a {
     color: white;
 }
@@ -153,50 +57,299 @@ body{
 
 .navright ul {
     position: relative;
-    padding-left:0;
+    padding-left: 0;
 }
 
 .navleft ul {
     position: relative;
-    padding-right:0;
+    padding-right: 0;
 }
 
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #navbg {
+        background: rgb(94, 26, 26);
+        background: linear-gradient(58deg, rgba(94, 26, 26, 0.78) 42%, rgba(52, 10, 10, 0.9) 48%, rgba(158, 2, 13, 0.78) 48%);
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 0;
+    }
+
+    #navbg1 {
+        background: rgb(94, 26, 26);
+        background: linear-gradient(58deg, rgba(94, 26, 26, 0.78) 42%, rgba(52, 10, 10, 0.9) 48%, rgba(158, 2, 13, 0.78) 48%);
+    }
+
+
+    #active {
+        text-decoration: underline overline;
+    }
+
+
+    #navlogo {
+    filter: invert(1);
+    padding-top: 3.5vw;
+    position: relative;
+    max-width: 425%;
+    top: -5px;
+    left: -62px;
+    }
+    
+    h2.cardbod {
+    font-size: 17pt;
+    }
+    body .col-5.navnew.navleft.d-flex.justify-content-end {
+    padding-top: 38pt;
+    justify-content: flex-start!important;
+    }
+    
+    .col-5.navnew.navright.d-lg-flex.justify-content-start {
+    padding-top: 38pt;
+    justify-content: flex-end!important;
+    }
+    
+
+    .navnew li a {
+    color: white;
+    padding: 4pt;
+    }
+
+    .navnew li a:hover {
+        text-decoration: underline overline;
+    }
+
+    .navnew li {
+        text-decoration: none;
+        list-style: none;
+        padding-top: 10pt;
+        margin: 1pt;
+        font-size: 12pt;
+        font-weight: bold;
+    }
+
+    .navright ul {
+        position: relative;
+        padding-left: 0;
+        right:15pt;
+    }
+
+    .navleft ul {
+        position: relative;
+        padding-right: 0;
+        left: -28pt;
+    }
+
+    .fontfooter {
+        color: white;
+        font-size: 1pt;
+        font-family: 'Fjalla One', sans-serif;
+        letter-spacing: 0.2vw;
+        padding: 0.18vw;
+    }
+
+    .logos i {
+        padding-right: 0.2vw;
+        color: white;
+        font-size: 10px;
+    }
+
+    .logos i:hover {
+        color: black;
+    }
+
+
+    body .fontfooter {
+        color: white;
+        font-size: 2.5vw;
+        font-family: 'Fjalla One', sans-serif;
+        letter-spacing: 0.2vw;
+        padding: 0.18vw;
+    }
+
+    body .logos i {
+        padding-right: 0vw;
+        color: white;
+        font-size: 15px;
+    }
+
+    .logos i:hover {
+        color: black;
+    }
+    
+    body .cardbod {
+    margin-top: 24vw;
+    margin-left: -1vw;
+    margin-right: -6vw;
+    }
+    
+    #sec1 h1, p {
+    padding: 5pt;
+    margin: 10pt;
+    }
+    
+    #sec1 img {
+    width: 303px;
+    }
+        
+    body .fontnew {
+    color: white;
+    font-size: 10pt;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.2vw;
+    }
+    
+    body .parralax {
+    background-color: teal;
+    height: 710pt;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    body .formbackground {
+    margin-top: 60pt;
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    }
+
+}
+
+/*End of mediaquery for small device*/
+
 .fontnew {
-    color:white;
+    color: white;
     font-size: 1.3vw;
     font-family: 'Fjalla One', sans-serif;
-    letter-spacing:0.2vw;
-    
+    letter-spacing: 0.2vw;
+
 }
 
 .fonttypo {
     font-family: 'Playfair Display', serif;
-    color:white;
+    color: white;
     font-size: 1vw;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 .fontfooter {
-    color:white;
+    color: white;
     font-size: 1vw;
     font-family: 'Fjalla One', sans-serif;
-    letter-spacing:0.2vw;
-    padding:0.18vw;
+    letter-spacing: 0.2vw;
+    padding: 0.18vw;
 }
 
 .logos i {
-    padding-right:0.2vw;
-    color:white; 
-    font-size:22px;
+    padding-right: 0.2vw;
+    color: white;
+    font-size: 22px;
 }
 
 .logos i:hover {
-    color:black;
+    color: black;
 }
 
-#sec1 h1, p{
-    padding:5pt;
-    margin:10pt;
+/*Home Styling*/
+
+.cardbod {
+    margin-top: 7vw;
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Arrow Test https://codepen.io/raf187/pen/BvgGRQ*/
+
+.red {
+    margin-top: 25vw;
+}
+
+body {
+    margin-top: 0;
+    padding: 0;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(158, 2, 13, 0.7);
+    border-right: 5px solid rgb(158, 2, 13, 0.7);
+    transform: rotate(45deg);
+    margin: -12px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+
+/*General Styling*/
+
+#borderhome {
+    border-top: solid 2vw rgb(94, 26, 26);
+}
+
+
+
+/*Parralax Scrolling */
+
+.parralax {
+    background-color: teal;
+    height: 480pt;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notparralax {
+    background-image: url("images/background/background3.jpg");
+    height: 400pt;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notparralax div {
+    padding-top: 1vw;
+}
+
+
+#sec1 h1,
+p {
+    padding: 5pt;
+    margin: 10pt;
 }
 
 #videobg {
@@ -223,6 +376,7 @@ body{
 }
 
 /*edit size*/
+
 @media (max-width: 200px) {
     #videobg {
         display: none;
@@ -234,12 +388,15 @@ body{
 }
 
 /*Newsletter Form*/
+
 /*To reference DNCE*/
+
 .formbackground {
-    margin-top:5vw;
-    background-color:rgba(0, 0, 0, 0.8);
-    padding:2vw;
+    margin-top: 5vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2vw;
 }
+
 #formcta {
     text-align: center;
     line-height: 1;
@@ -259,14 +416,15 @@ body{
 }
 
 /*To reference DNCE*/
+
 .blockheader1 {
     display: inline-block;
-    font-family: "Amatic SC",cursive;
+    font-family: "Amatic SC", cursive;
     font-weight: 700;
     border: 3px solid #f00833;
     color: white;
     padding: 0 1.125rem;
-    margin: 0;
+    margin: 7px;
     border-radius: 1px;
     clear: both;
     letter-spacing: .05em;
@@ -277,6 +435,7 @@ body{
     left: -1%;
     transform: skew(3deg);
 }
+
 .blockheader1::after {
     content: '';
     width: 0;
@@ -290,7 +449,7 @@ body{
     left: 6%;
     z-index: 0;
     transform: rotate(-7deg);
-} 
+}
 
 #red-font {
     color: #f00833;
@@ -298,88 +457,80 @@ body{
 
 /*Gallery Styling*/
 
-
 .fonttypo-gallery {
     font-family: 'Playfair Display', serif;
-    color:rgb(158,2,13);
+    color: rgb(158, 2, 13);
     font-size: 1vw;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 /*Reference for Gallery Images https://codepen.io/ozzy21/pen/JqgrvP*/
 
 #gallerybod {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .container {
-  width: 100%;
-  display: grid;
-  grid-auto-flow: dense;
-  grid-template:
-    "1fr 1fr 1fr 1fr 1fr" 33.33vh
-    "1fr 1fr 1fr 1fr 1fr" 33.33vh
-    "1fr 1fr 1fr 1fr 1fr" 33.33vh;
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh "1fr 1fr 1fr 1fr 1fr" 33.33vh "1fr 1fr 1fr 1fr 1fr" 33.33vh;
 }
 
 .container .box {
-  position: relative;
-  background: #ccc;
+    position: relative;
+    background: #ccc;
 }
+
 .container .box.a {
-  grid-row: span 2;
+    grid-row: span 2;
 }
+
 .container .box.b,
 .container .box.f,
 .container .box.h,
 .container .box.j {
-  grid-column: span 2;
+    grid-column: span 2;
 }
+
 .container .box img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 @media (max-width: 991px) {
-  .container {
-    grid-template:
-      "1fr 1fr 1fr" 250px
-      "1fr 1fr 1fr" 250px
-      "1fr 1fr 1fr" 250px
-      "1fr 1fr 1fr" 250px
-      "1fr 1fr 1fr" 250px;
-  }
+    .container {
+        grid-template: "1fr 1fr 1fr" 250px "1fr 1fr 1fr" 250px "1fr 1fr 1fr" 250px "1fr 1fr 1fr" 250px "1fr 1fr 1fr" 250px;
+    }
 }
+
 @media (max-width: 768px) {
-  .container {
-    grid-template:
-      "1fr 1fr" 200px
-      "1fr 1fr" 200px
-      "1fr 1fr" 200px
-      "1fr 1fr" 200px
-      "1fr 1fr" 200px
-      "1fr 1fr" 200px
-      "1fr 1fr" 200px;
-  }
+    .container {
+        grid-template: "1fr 1fr" 200px "1fr 1fr" 200px "1fr 1fr" 200px "1fr 1fr" 200px "1fr 1fr" 200px "1fr 1fr" 200px "1fr 1fr" 200px;
+    }
 }
+
 .container .box.h {
-  grid-column: span 1;
+    grid-column: span 1;
 }
 
 /*Music Styling*/
+
 .cardbod-left {
-    margin-top:13.1vw;
+    margin-top: 13.1vw;
 }
 
 .cardbod-right {
-    margin-top:9.1vw;
+    margin-top: 9.1vw;
 }
 
-.cardbod-right div{
-    margin:0.2vw;
+.cardbod-right div {
+    margin: 0.2vw;
 }
 
 .music-background {
@@ -387,54 +538,57 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index:-1;
+    z-index: -1;
 }
 
 /*Tour Styling*/
+
 .tour-background {
     background-image: url("images/background/background2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index:-1;
+    z-index: -1;
 }
 
 .cardbod-tour {
-    background-color: rgba(0,0,0,0.6);
-    padding:10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
 }
 
 
 .albumclass td img {
-    width:6vw; 
-    margin-right:2vw;
+    width: 6vw;
+    margin-right: 2vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-.table th, .table td {
-  vertical-align: baseline;
+.table th,
+.table td {
+    vertical-align: baseline;
 }
 
 .table {
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 /*History Styling*/
+
 .history-background {
     background-image: url("images/gallery/image8.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index:-1;
+    z-index: -1;
 }
 
 .cardbod-left-history {
-    margin-top:11.1vw;
+    margin-top: 11.1vw;
 }
 
 .fonttypo-history {
     font-family: 'Playfair Display', serif;
-    color:rgb(158,2,13);
+    color: rgb(158, 2, 13);
     font-size: 1.5vw;
-    font-weight:bolder;
+    font-weight: bolder;
 }
