@@ -96,15 +96,16 @@ body{
     padding-top:1vw;
 }
 
-
-/*Optional Color background-color:rgba(207, 0, 15, 0.6)*/
 #navbg {
     background:rgb(94,26,26); 
     background:linear-gradient(58deg, rgba(94,26,26,0.78) 42%, rgba(52,10,10,0.9) 48%, rgba(158,2,13,0.78) 48%); 
-    margin: 0 3vw; 
+    /*margin: 0 3vw; */
     border-radius:15vw 0 15vw 0;
     position:absolute; 
     z-index:1;
+    left:0;
+    right:0;
+    margin:auto 3vw;
 }
 
 #navbg1 {
@@ -184,8 +185,15 @@ body{
 }
 
 .logos i {
-    padding-right:0.9vw;
+    padding-right:0.2vw;
+    color:white; 
+    font-size:22px;
 }
+
+.logos i:hover {
+    color:black;
+}
+
 #sec1 h1, p{
     padding:5pt;
     margin:10pt;
@@ -397,39 +405,6 @@ body{
 }
 
 
-.blockheader2 {
-    display: inline-block;
-    font-weight: 700;
-    font-family: inherit;
-    border: 3px solid #f00833;
-    color: white;
-    padding: 0 1.125rem;
-    margin: 0;
-    border-radius: 1px;
-    clear: both;
-    letter-spacing: .05em;
-    text-align: left;
-    width: auto;
-    position: relative;
-    left: -1%;
-    transform: skew(3deg);
-    background-color:rgba(0,0,0,0.6);
-}
-.blockheader2::after {
-    content: '';
-    width: 0;
-    height: 0;
-    top: auto;
-    border-style: solid;
-    border-width: 12px 0 0 8px;
-    border-color: #f00833 transparent transparent;
-    position: absolute;
-    bottom: 43px;
-    left: -2.1%;
-    z-index: 0;
-    transform: rotate(97deg);
-} 
-
 .albumclass td img {
     width:6vw; 
     margin-right:2vw;
@@ -455,4 +430,11 @@ body{
 
 .cardbod-left-history {
     margin-top:11.1vw;
+}
+
+.fonttypo-history {
+    font-family: 'Playfair Display', serif;
+    color:rgb(158,2,13);
+    font-size: 1.5vw;
+    font-weight:bolder;
 }
