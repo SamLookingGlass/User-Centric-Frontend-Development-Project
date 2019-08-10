@@ -68,6 +68,7 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+    /*Styling for Home*/
     #navbg {
         background: linear-gradient(58deg, rgba(94, 26, 26, 0.78) 42%, rgba(52, 10, 10, 0.9) 48%, rgba(158, 2, 13, 0.78) 48%);
         position: absolute;
@@ -187,9 +188,14 @@
     
     body .formbackground {
     margin-top: 60pt;
-    /*background-color: rgba(0, 0, 0, 0.8);*/
     }
-
+    
+    /*Styling for Music*/
+    h2.cardbod-left.cardbod-tour {
+    margin-top: 100pt;
+    font-size: 17pt;
+    }
+    
 }
 
 /*End of mediaquery for small device*/
@@ -214,7 +220,7 @@
     font-size: 13px;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.2vw;
-    padding: 1.1vw;
+    padding: 0.6vw;
 }
 
 .logos i {
@@ -499,14 +505,6 @@ p {
     margin-top: 13.1vw;
 }
 
-.cardbod-right {
-    margin-top: 9.1vw;
-}
-
-.cardbod-right div {
-    margin: 0.2vw;
-}
-
 .music-background {
     background-image: url("images/background/background4.jpg");
     background-position: center;
@@ -553,7 +551,14 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+}
+
+.article-history {
+    background-image: url("images/background/background5.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: auto;
+    height:100%;
 }
 
 .cardbod-left-history {
@@ -563,6 +568,6 @@ p {
 .fonttypo-history {
     font-family: 'Playfair Display', serif;
     color: rgb(158, 2, 13);
-    font-size: 1.5vw;
+    font-size: 11pt;
     font-weight: bolder;
 }

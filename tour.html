@@ -20,7 +20,7 @@
     <!-- Own Stylesheet -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <title>The Quests Official - Tour</title>
+    <title>The Quests Official | Tour</title>
 </head>
 
 <body id="borderhome">
@@ -53,7 +53,28 @@
         <div style="height:500pt" class="container-fluid">
             <div class="row">
                 <div class="col-1"></div>
-                <div class="col-5"></div>
+                <div class="col-5">
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Tour Dates</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>There are currently no tours in your area.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-5 fonttypo">
                     <div>
                         <h2 class="cardbod cardbod-tour">
@@ -62,24 +83,17 @@
                             <br> My prime motivation has always been to touch emotions – because if you can do that, you have your audience in your hands.”
                             <br>
                         </h2>
-                        <h3 class="blockheader1 ">
+                        <h3>
                             - Vernon Cornelius, Lead Singer
                         </h3>
+                                            <!-- Button trigger modal -->
+                        <button type="button" style="font-family: "Amatic SC", cursive" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                          Tour Dates
+                        </button>
                     </div>
                     <div class="col-1"></div>
                 </div>
             </div>
-    </section>
-    <section>
-        <div style="height:500pt" class="container-fluid fonttypo-gallery">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    Test
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </div>
     </section>
     <footer class="fixed-bottom fontfooter" id="navbg1">
         <div class="container-fluid">
