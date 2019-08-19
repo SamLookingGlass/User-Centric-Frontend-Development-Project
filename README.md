@@ -96,11 +96,17 @@ On every webpage, users will see a navigation bar that is pegged to the top of t
 Users will see 5 tabs  and 1 logo.
 When users move their mouse cursor and hover above any of the tabs on the Navigation Bar, they will see the tab being underlined.
 When users click on the underlined tab, they will be redirected to:
+
 ‘HOME’ redirects to https://samlookingglass.github.io/User-Centric-Frontend-Development-Project/home.html
+
 ‘MUSIC’ redirects tohttps://samlookingglass.github.io/User-Centric-Frontend-Development-Project/music.html
+
 ‘HISTORY’ redirects to https://samlookingglass.github.io/User-Centric-Frontend-Development-Project/history.html
+
 ‘TOUR’ redirects to https://samlookingglass.github.io/User-Centric-Frontend-Development-Project/tour.html
+
 ‘GALLERY’ redirects to https://samlookingglass.github.io/User-Centric-Frontend-Development-Project/gallery.html
+
 ‘QUESTS’ logo redirects to https://samlookingglass.github.io/User-Centric-Frontend-Development-Project/home.html
 
 
@@ -108,9 +114,13 @@ When users click on the underlined tab, they will be redirected to:
 When users move their mouse cursor and hover above any of the icons on the Footer bar, they will see the icons being highlighted in black.
 
 When users click on the highlighted icons, the link will pop up in another separate page:
+
 ‘Spotify’ – redirects to https://open.spotify.com/artist/4AOgY5YwQw4d5pgEX3f56A
+
 ‘YouTube’ – redirects to https://www.youtube.com/user/JoeWuSeattleWaUSA/featured
+
 ‘SoundCloud’ – redirects to https://soundcloud.com/user-73693220/keith-locke-the-quests-dont-1
+
 ‘Wikipedia’ – redirects to https://en.wikipedia.org/wiki/The_Quests
 
 <Home Page>
@@ -157,9 +167,13 @@ https://www.singaporememory.sg/contents/SMB-57390f19-8e48-49b0-b370-40c6e3e2ba71
 # (2) Media
 <Photos>
 Most of stock photos used as background were taken from Pexels, a stock image library. Photos of the band members were taken from the following sources:
+
 http://www.mycommunity.org.sg/celebrating-civic-life/festivals/25-the-quests-my-queenstown.html
+
 http://60spunk.m78.com/singaporeanbandsnew.html
+
 http://mocamborainbow.blogspot.com/2013/08/blog-post.html
+
 https://www.straitstimes.com/lifestyle/entertainment/the-quests-guitarist-reggie-verghese-dies-of-heart-failure
 
 <Video>
