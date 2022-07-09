@@ -6,7 +6,7 @@ This project focuses on the static website development for a popular Singaporean
 The website was designed as a tribute page for The Quests. The intention of the website development was to store some of their music, new articles and photos throughout their years active. Through the website, both young and old-time fans can reminisce the band’s legacy of rock and roll.
 
 # Demo
-A live website can be found here https://samlookingglass.github.io/User-Centric-Frontend-Development-Project/home
+A live website can be found here https://samlookingglass.github.io/User-Centric-Frontend-Development-Project/
  
 # UX 
 # (1) Project Strategy
